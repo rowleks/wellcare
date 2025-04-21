@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-dark-100: #000;
+  --color-dark-200: #333;
+  --color-primary-200: #1a253b;
+  --color-primary-100: #c3e4ff;
+  --color-secondary-100: #edf7ff;
+  --color-secondary-200: #edf7ff;
+  --font-inter: "Inter";
+  --font-urbanist: "Urbanist"
+}
+
+body {
+  color: var(--color-dark-100);
+  font-family: var(--font-inter);
+  @apply leading-normal
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-urbanist
+}
+
+h1 {
+  @apply text-5xl/normal
+}
+h2 {
+  @apply text-4xl/normal
+}
+h3 {
+  @apply text-3xl/normal
+}
+h4 {
+  @apply text-2xl/normal
+}
+h5 {
+  @apply text-lg/normal
+}
+h6 {
+  @apply text-base/relaxed
+}
