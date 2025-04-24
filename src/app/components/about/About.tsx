@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="my-15 md:my-20 lg:my-25">
-      <div className="container">
+    <section>
+      <div className="wrapper">
         <div className="flex flex-col-reverse md:flex-row gap-16 md:items-center">
           <div className="grid grid-cols-2 gap-7 flex-1">
             <div className="relative h-full w-full">
@@ -17,14 +17,16 @@ export default function About() {
               />
 
               <div className="absolute left-0 bottom-6 w-full max-md:hidden">
-                <div className="flex items-center gap-2 px-[18px] py-3 bg-white w-[85%] mx-auto text-dark-200 rounded-sm">
+                <div className="flex items-center gap-2 py-2 px-2.5 lg:px-[18px] lg:py-3 bg-white w-[85%] mx-auto text-dark-200 rounded-sm">
                   <Image
                     src="/ic-wellness.svg"
                     width={24}
                     height={24}
                     alt="checkmark icon"
                   />
-                  <p>Your Health, Our Priority</p>
+                  <p className="text-sm lg:text-base">
+                    Your Health, Our Priority
+                  </p>
                 </div>
               </div>
             </div>
@@ -57,10 +59,7 @@ export default function About() {
               </div>
             </div>
 
-            <Link
-              href="#"
-              className="btn-primary w-fit mt-3 self-center lg:self-auto"
-            >
+            <Link href="#" className="btn-primary mt-3">
               About us
             </Link>
           </div>

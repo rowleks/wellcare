@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="bg-primary-100 mb-15 md:mb-20 lg:mb-25 relative">
-      <div className="container w-full">
+    <section className="bg-primary-100">
+      <div className="wrapper">
         <div className="sm:h-[30rem] lg:h-[44rem] flex flex-col xs:flex-row items-center overflow-hidden w-full justify-between">
           <div className="flex flex-col max-w-xl gap-7 xs:min-w-[26rem] max-xs:w-full pt-10">
             <h1 className="max-xs:text-center">
@@ -15,7 +15,7 @@ export default function Hero() {
               journey to vibrant health and an inspired life with wellcare
               health.
             </p>
-            <Link href="#" className="btn-primary w-fit max-xs:self-center">
+            <Link href="#" className="btn-primary">
               Learn More
             </Link>
           </div>
