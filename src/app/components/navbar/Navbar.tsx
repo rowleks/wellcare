@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <header className="bg-white py-4 text-sm relative z-50" ref={mobileMenuRef}>
       <div className="flex items-center justify-between px-5 container">
-        <Link href="/">
+        <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
           <Image
             src="/blue-logo.svg"
             alt="wellcare logo"
@@ -88,8 +88,6 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-
-      {/* Mobile Navigation */}
     </header>
   );
 }

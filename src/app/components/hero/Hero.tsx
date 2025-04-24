@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <main className="bg-primary-100 mb-40 relative">
+    <section className="bg-primary-100 mb-15 md:mb-20 lg:mb-25 relative">
       <div className="container w-full">
         <div className="sm:h-[30rem] lg:h-[44rem] flex flex-col xs:flex-row items-center overflow-hidden w-full justify-between">
           <div className="flex flex-col max-w-xl gap-7 xs:min-w-[26rem] max-xs:w-full pt-10">
@@ -73,6 +73,6 @@ export default function Hero() {
           <span>Recover</span>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

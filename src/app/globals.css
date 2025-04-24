@@ -6,6 +6,7 @@
   --color-primary-100: #c3e4ff;
   --color-primary-200: #1a253b;
   --color-secondary-100: #edf7ff;
+  
   --font-inter: "Inter";
   --font-urbanist: "Urbanist";
 
@@ -26,7 +27,7 @@ h1 {
   @apply text-4xl lg:text-5xl/normal
 }
 h2 {
-  @apply text-4xl/normal
+  @apply text-3xl lg:text-4xl/normal
 }
 h3 {
   @apply text-3xl/normal
@@ -51,4 +52,8 @@ h6 {
 
 .mobile-nav {
   @apply absolute top-0 left-0 w-full bg-secondary-100 z-10 flex flex-col gap-6 items-center px-5 pt-10 transition-all duration-500 transform ease-in-out font-medium text-base lg:hidden
+}
+
+.counter {
+  @apply font-light leading-tight mb-0.5 text-2xl lg:text-3xl font-urbanist 
 }
