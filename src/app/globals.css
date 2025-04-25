@@ -45,6 +45,18 @@
   section {
     @apply mb-15 md:mb-20 lg:mb-25 xl:mb-30 relative
   }
+
+  
+  input, textarea {
+    @apply w-full h-auto py-3 px-4 outline-1 rounded-sm resize-none outline-dark-100;
+  }
+
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    @apply hidden m-0;
+    -webkit-appearance: none;
+  }
 }
 
 @layer components {
@@ -53,7 +65,7 @@
   }
 
   .btn-primary {
-    @apply bg-primary-200 py-3 px-7 rounded-4xl text-center text-secondary-100 border-1 border-primary-200 font-medium hover:border-dark-100 hover:text-dark-200 hover:bg-transparent transition-all duration-300 w-fit max-xs:self-center capitalize; 
+    @apply bg-primary-200 py-3 px-7 rounded-4xl text-center text-secondary-100 border-1 border-primary-200 font-medium hover:border-dark-100 hover:text-dark-200 hover:bg-transparent transition-all duration-300 w-fit max-xs:self-center capitalize cursor-pointer; 
   }
 
   .mobile-nav {

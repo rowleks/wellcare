@@ -22,7 +22,7 @@ export default function HelpServices() {
   return (
     <section>
       <div className="wrapper">
-        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-14">
+        <div className="flex flex-col lg:flex-row items-center gap-14">
           <div className="flex flex-col gap-4 flex-1">
             <div>
               <Heading contents={headingContents} />
@@ -42,7 +42,7 @@ export default function HelpServices() {
           <div className="flex-1">
             <Image
               src="/helpline.jpg"
-              alt="nurse checking a patient"
+              alt="A nurse checking a patient"
               width={1240}
               height={1280}
               className="object-cover"
