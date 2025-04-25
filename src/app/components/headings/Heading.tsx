@@ -1,13 +1,15 @@
 import Image from "next/image";
 
-interface HeaderProps {
-  contents: {
-    title: string;
-    subtitle: string;
-  };
+export interface HeadingType {
+  title: string;
+  subtitle: string;
 }
 
-export default function Heading({ contents }: HeaderProps) {
+type HeadingProps = {
+  contents: HeadingType;
+};
+
+export default function Heading({ contents }: HeadingProps) {
   return (
     <>
       <div className="flex gap-2 items-center">

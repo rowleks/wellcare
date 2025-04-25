@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Heading from "../headings/Heading";
+import Heading, { HeadingType } from "../headings/Heading";
 import ButtonPrimary from "../buttons/ButtonPrimary";
 
 interface ServiceType {
@@ -36,7 +36,7 @@ export default function MedServicesMini() {
     },
   ];
 
-  const headingContents = {
+  const headingContents: HeadingType = {
     title: "our medical services",
     subtitle: "what we do",
   };

@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Appointment from "./components/appointment/Appointment";
+import Docs from "./components/doctors/Docs";
 import Hero from "./components/hero/Hero";
 import HelpServices from "./components/services/HelpServices";
 import MedServicesMini from "./components/services/MedServicesMini";
@@ -13,6 +14,7 @@ export default function Home() {
         <MedServicesMini />
         <HelpServices />
         <Appointment />
+        <Docs />
       </main>
     </div>
   );

@@ -1,20 +1,20 @@
 import Image from "next/image";
-import ContactInfo from "../contact/ContactInfo";
-import Heading from "../headings/Heading";
+import ContactInfo, { ContactInfoType } from "../contact/ContactInfo";
+import Heading, { HeadingType } from "../headings/Heading";
 
 export default function HelpServices() {
-  const headingContents = {
+  const headingContents: HeadingType = {
     title: "essential helpline services",
     subtitle: "emergency helpline",
   };
 
-  const contactInfoContents1 = {
+  const contactInfoContents1: ContactInfoType = {
     label: "helpline number",
     phone: "+234 91 5109 5848",
     icon: "/ic-phone.svg",
   };
 
-  const contactInfoContents2 = {
+  const contactInfoContents2: ContactInfoType = {
     label: "appointment",
     email: "momohrowland@gmail.com",
     icon: "/ic-mail.svg",

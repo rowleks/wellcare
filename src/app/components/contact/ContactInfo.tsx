@@ -1,15 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface ContactInfoProps {
-  contactsInfo: {
-    label: string;
-    phone?: string;
-    email?: string;
-    icon: string;
-    width?: number;
-  };
+export interface ContactInfoType {
+  label: string;
+  phone?: string;
+  email?: string;
+  icon: string;
+  width?: number;
 }
+
+type ContactInfoProps = {
+  contactsInfo: ContactInfoType;
+};
 
 export default function ContactInfo({ contactsInfo }: ContactInfoProps) {
   return (
