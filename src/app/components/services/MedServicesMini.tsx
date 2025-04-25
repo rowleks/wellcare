@@ -8,7 +8,7 @@ interface ServiceType {
   description: string;
 }
 
-export default function ServicesMini() {
+export default function MedServicesMini() {
   const services: ServiceType[] = [
     {
       icon: "/bone.svg",
@@ -36,14 +36,16 @@ export default function ServicesMini() {
     },
   ];
 
-  const title = "Our Medical Services";
-  const subtitle = "What We Do";
+  const headingContents = {
+    title: "our medical services",
+    subtitle: "what we do",
+  };
   return (
     <section className="py-10 md:py-20 lg:py-30 border-y-1 border-line-100">
       <div className="wrapper">
         <div className="flex flex-col gap-7 lg:gap-12">
           <div>
-            <Heading title={title} subtitle={subtitle} />
+            <Heading contents={headingContents} />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 gap-y-10 md:max-lg:gap-7 lg:gap-x-10">

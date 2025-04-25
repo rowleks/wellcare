@@ -5,10 +5,18 @@ import Image from "next/image";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
 import ButtonPri from "../buttons/ButtonPrimary";
+import ContactInfo from "../contact/ContactInfo";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
+
+  const contactInfoContents = {
+    label: "emergency call",
+    phone: "+234 80 3820 9794",
+    icon: "/ic-phone.svg",
+    width: 35,
+  };
 
   // Close the menu when clicking outside
   useEffect(() => {
@@ -47,21 +55,7 @@ export default function Navbar() {
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center gap-8 ml-auto">
-          <div className="flex items-center gap-2.5">
-            <Image
-              src="/ic-phone.svg"
-              alt="phone logo"
-              width={35}
-              height={50}
-              className="align-middle"
-            />
-            <div className="flex flex-col gap-1.5">
-              <p className="font-medium">Emergency Call</p>
-              <Link href="tel:+2348038209794" className="text-dark-200">
-                +234 80 3820 9794
-              </Link>
-            </div>
-          </div>
+          <ContactInfo contactsInfo={contactInfoContents} />
           <ButtonPri content="book appointment" />
         </div>
 

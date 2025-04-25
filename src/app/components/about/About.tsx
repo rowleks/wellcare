@@ -39,7 +39,7 @@ export default function About() {
               className="rounded-sm object-cover max-h-[432px]"
             />
           </div>
-          <div className="flex flex-col gap-3 lg:gap-5 flex-1">
+          <div className="flex flex-col gap-4 lg:gap-5 flex-1">
             <h2 className="font-light">Our Wellness Platform</h2>
             <p className="text-dark-200">
               We&#39;re a passionate team dedicated to guiding you towards a

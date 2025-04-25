@@ -1,6 +1,7 @@
 import About from "./components/about/About";
 import Hero from "./components/hero/Hero";
-import ServicesMini from "./components/services/ServicesMini";
+import HelpServices from "./components/services/HelpServices";
+import MedServicesMini from "./components/services/MedServicesMini";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <ServicesMini />
+        <MedServicesMini />
+        <HelpServices />
       </main>
     </div>
   );
