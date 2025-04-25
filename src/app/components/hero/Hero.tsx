@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import ButtonPrimary from "../buttons/ButtonPrimary";
 
 export default function Hero() {
   return (
@@ -15,9 +15,7 @@ export default function Hero() {
               journey to vibrant health and an inspired life with wellcare
               health.
             </p>
-            <Link href="#" className="btn-primary">
-              Learn More
-            </Link>
+            <ButtonPrimary content="learn more" />
           </div>
 
           <div className="flex items-center h-full">

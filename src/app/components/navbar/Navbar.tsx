@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
+import ButtonPri from "../buttons/ButtonPrimary";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -61,9 +62,7 @@ export default function Navbar() {
               </Link>
             </div>
           </div>
-          <Link href="#" className="btn-primary">
-            Book Appointment
-          </Link>
+          <ButtonPri content="book appointment" />
         </div>
 
         {/* Mobile Hamburger Menu */}

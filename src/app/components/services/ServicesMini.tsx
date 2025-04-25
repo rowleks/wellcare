@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import Heading from "../headings/Heading";
+import ButtonPrimary from "../buttons/ButtonPrimary";
 
 interface ServiceType {
   icon: string;
@@ -39,7 +39,7 @@ export default function ServicesMini() {
   const title = "Our Medical Services";
   const subtitle = "What We Do";
   return (
-    <section className="py-10 md:py-20 lg:py-30 border-y-1 border-hr">
+    <section className="py-10 md:py-20 lg:py-30 border-y-1 border-line-100">
       <div className="wrapper">
         <div className="flex flex-col gap-7 lg:gap-12">
           <div>
@@ -64,9 +64,9 @@ export default function ServicesMini() {
             ))}
           </div>
 
-          <Link href="#" className="btn-primary ml-auto">
-            View All
-          </Link>
+          <div className="ml-auto">
+            <ButtonPrimary content="view all" />
+          </div>
         </div>
       </div>
     </section>

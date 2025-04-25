@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import ButtonPrimary from "../buttons/ButtonPrimary";
 
 export default function About() {
   return (
@@ -59,9 +59,7 @@ export default function About() {
               </div>
             </div>
 
-            <Link href="#" className="btn-primary mt-3">
-              About Us
-            </Link>
+            <ButtonPrimary content="about us" />
           </div>
         </div>
       </div>

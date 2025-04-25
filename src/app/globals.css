@@ -6,7 +6,7 @@
   --color-primary-100: #c3e4ff;
   --color-primary-200: #1a253b;
   --color-secondary-100: #edf7ff;
-  --color-hr: #0000001a;
+  --color-line-100: #0000001a;
 
   --font-inter: "Inter";
   --font-urbanist: "Urbanist";
@@ -16,9 +16,7 @@
 
 @layer base {
   body {
-    color: var(--color-dark-100);
-    font-family: var(--font-inter);
-    @apply leading-normal;
+    @apply text-dark-100 font-inter leading-normal;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -55,7 +53,7 @@
   }
 
   .btn-primary {
-    @apply bg-primary-200 py-3 px-7 rounded-4xl text-center text-secondary-100 border-1 border-primary-200 font-medium hover:border-dark-100 hover:text-dark-200 hover:bg-transparent transition-all duration-300 w-fit max-xs:self-center; 
+    @apply bg-primary-200 py-3 px-7 rounded-4xl text-center text-secondary-100 border-1 border-primary-200 font-medium hover:border-dark-100 hover:text-dark-200 hover:bg-transparent transition-all duration-300 w-fit max-xs:self-center capitalize; 
   }
 
   .mobile-nav {
