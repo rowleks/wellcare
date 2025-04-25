@@ -1,25 +1,73 @@
 import Image from "next/image";
+import Link from "next/link";
+import Heading from "../headings/Heading";
+
+interface ServiceType {
+  icon: string;
+  title: string;
+  description: string;
+}
 
 export default function ServicesMini() {
-  return (
-    <section>
-      <div>
-        <div>
-          <div className="">
-            <div className="flex gap-2 items-center">
-              <Image
-                src="/heartbeat.svg"
-                alt="heartbeat icon"
-                width={30}
-                height={24}
-              />
-              <span>What We Do</span>
-            </div>
-            <h2>Our Medical Services</h2>
-          </div>
-        </div>
+  const services: ServiceType[] = [
+    {
+      icon: "/bone.svg",
+      title: "Bone Marrow Transplant",
+      description:
+        "Discover renewed hope through our advanced bone marrow transplant procedures",
+    },
+    {
+      icon: "/van.svg",
+      title: "Emergency Care",
+      description:
+        "Rapid and reliable emergency care services to address your urgent health needs promptly and effectively.",
+    },
+    {
+      icon: "/heart.svg",
+      title: "Operation Theater",
+      description:
+        "Equipped with advanced technology, ensuring a safe and efficient environment for surgical procedures.",
+    },
+    {
+      icon: "/pills.svg",
+      title: "Pharmacy",
+      description:
+        "Pharmacy services offering a wide range of medications to support your health and wellness needs.",
+    },
+  ];
 
-        <div></div>
+  const title = "Our Medical Services";
+  const subtitle = "What We Do";
+  return (
+    <section className="py-10 md:py-20 lg:py-30 border-y-1 border-hr">
+      <div className="wrapper">
+        <div className="flex flex-col gap-7 lg:gap-12">
+          <div>
+            <Heading title={title} subtitle={subtitle} />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 gap-y-10 md:max-lg:gap-7 lg:gap-x-10">
+            {services.map((service, index) => (
+              <div key={index} className="flex flex-col gap-5">
+                <Image
+                  src={service.icon}
+                  alt={`${service.title} icon`}
+                  width={55}
+                  height={55}
+                />
+
+                <div className="flex flex-col gap-2.5">
+                  <h5>{service.title}</h5>
+                  <p className="text-dark-200">{service.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <Link href="#" className="btn-primary ml-auto">
+            View All
+          </Link>
+        </div>
       </div>
     </section>
   );

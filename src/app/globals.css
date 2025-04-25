@@ -6,6 +6,7 @@
   --color-primary-100: #c3e4ff;
   --color-primary-200: #1a253b;
   --color-secondary-100: #edf7ff;
+  --color-hr: #0000001a;
 
   --font-inter: "Inter";
   --font-urbanist: "Urbanist";
@@ -37,14 +38,14 @@
     @apply text-2xl;
   }
   h5 {
-    @apply text-lg;
+    @apply text-lg font-medium;
   }
   h6 {
     @apply text-base/relaxed;
   }
 
   section {
-    @apply mb-15 md:mb-20 lg:mb-25 relative
+    @apply mb-15 md:mb-20 lg:mb-25 xl:mb-30 relative
   }
 }
 

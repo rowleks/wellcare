@@ -60,7 +60,7 @@ export default function About() {
             </div>
 
             <Link href="#" className="btn-primary mt-3">
-              About us
+              About Us
             </Link>
           </div>
         </div>
