@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Appointment from "./components/appointment/Appointment";
+import Cta from "./components/cta/Cta";
 import Docs from "./components/doctors/Docs";
 import Hero from "./components/hero/Hero";
 import HelpServices from "./components/services/HelpServices";
@@ -15,6 +16,7 @@ export default function Home() {
         <HelpServices />
         <Appointment />
         <Docs />
+        <Cta />
       </main>
     </div>
   );
