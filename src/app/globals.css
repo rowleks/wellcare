@@ -79,4 +79,5 @@
   .img-zoom {
     @apply object-cover w-full h-full transition-all duration-1000 ease-out transform-gpu group-hover:scale-103
   }
+  
 }
