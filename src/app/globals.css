@@ -42,6 +42,10 @@
     @apply text-base/relaxed;
   }
 
+  small {
+    @apply text-sm
+  }
+
   section {
     @apply mb-15 md:mb-20 lg:mb-25 xl:mb-30 relative
   }

@@ -45,10 +45,10 @@ export default function Reviews() {
             </div>
             <div className="hidden md:flex items-center gap-3">
               {/* Custom navigation buttons */}
-              <div className="group swiper-button-prv">
+              <div className="group swiper-button-prv cursor-pointer">
                 <ArrowLeft />
               </div>
-              <div className="group swiper-button-nxt">
+              <div className="group swiper-button-nxt cursor-pointer">
                 <ArrowRight />
               </div>
             </div>

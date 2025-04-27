@@ -2,6 +2,7 @@ import About from "./components/about/About";
 import Appointment from "./components/appointment/Appointment";
 import Cta from "./components/cta/Cta";
 import Docs from "./components/doctors/Docs";
+import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Reviews from "./components/reviews/Reviews";
 import HelpServices from "./components/services/HelpServices";
@@ -19,6 +20,7 @@ export default function Home() {
         <Docs />
         <Cta />
         <Reviews />
+        <Features />
       </main>
     </div>
   );

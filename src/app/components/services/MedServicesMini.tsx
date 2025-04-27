@@ -23,7 +23,7 @@ export default function MedServicesMini() {
         "Rapid and reliable emergency care services to address your urgent health needs promptly and effectively.",
     },
     {
-      icon: "/heart.svg",
+      icon: "/heart-beat.svg",
       title: "Operation Theater",
       description:
         "Equipped with advanced technology, ensuring a safe and efficient environment for surgical procedures.",

@@ -1,7 +1,7 @@
 export default function ArrowLeft() {
   return (
     <>
-      <div className="border-1 rounded-full flex items-center justify-center border-primary-200 group-hover:bg-primary-200 p-4 transition-all duration-300">
+      <div className="border-1 rounded-full flex items-center justify-center border-primary-200 group-hover:bg-primary-200 p-3.5 transition-all duration-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
