@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Appointment from "./components/appointment/Appointment";
+import ArticlesMini from "./components/articles/ArticlesMini";
 import Cta from "./components/cta/Cta";
 import Docs from "./components/doctors/Docs";
 import Features from "./components/features/Features";
@@ -21,6 +22,7 @@ export default function Home() {
         <Cta />
         <Reviews />
         <Features />
+        <ArticlesMini />
       </main>
     </div>
   );

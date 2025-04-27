@@ -13,7 +13,7 @@ type ReviewProps = {
 export default function ReviewsCard({ review }: ReviewProps) {
   return (
     <div className="flex flex-col md:flex-row items-center gap-7 md:gap-12 lg:gap-18 select-none">
-      <div className="bg-secondary-100 md:max-w-2/5 lg:max-w-3/10 w-full h-auto flex-1">
+      <div className="bg-secondary-100 md:max-w-2/5 lg:max-w-3/10 w-full h-auto flex-1 rounded-md">
         <Image
           src={review.imageSrc}
           alt={review.author}
