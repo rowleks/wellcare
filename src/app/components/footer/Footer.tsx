@@ -151,22 +151,24 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-2 items-center justify-between text-sm p-5 mt-5 border-t-1 border-secondary-200">
-        <p>
-          Design by{" "}
-          <Link href="https://www.nixar.io" className="footer-link">
-            Nixar.
-          </Link>{" "}
-          Developed by{" "}
-          <Link
-            href="https://rowland-momoh.netlify.app/"
-            className="footer-link"
-          >
-            Rolex.
-          </Link>
-        </p>
+      <div className="py-5 mt-5 border-t-1 border-secondary-200">
+        <div className="flex flex-col md:flex-row gap-2 items-center justify-between text-sm wrapper">
+          <p>
+            Design by{" "}
+            <Link href="https://www.nixar.io" className="footer-link">
+              Nixar.
+            </Link>{" "}
+            Developed by{" "}
+            <Link
+              href="https://rowland-momoh.netlify.app/"
+              className="footer-link"
+            >
+              Rolex.
+            </Link>
+          </p>
 
-        <p>Copyright &copy; 2025 WellCare. All Rights Reserved.</p>
+          <p>Copyright &copy; 2025 WellCare. All Rights Reserved.</p>
+        </div>
       </div>
     </footer>
   );
