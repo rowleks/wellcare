@@ -6,6 +6,8 @@
   --color-primary-100: #c3e4ff;
   --color-primary-200: #1a253b;
   --color-secondary-100: #edf7ff;
+  --color-secondary-200: #edf7ff1a;
+  --color-secondary-300: #edf7ff0d;
   --color-line-100: #0000001a;
 
   --font-inter: "Inter";
@@ -82,6 +84,14 @@
 
   .img-zoom {
     @apply object-cover w-full h-full transition-all duration-1000 ease-out transform-gpu group-hover:scale-103
+  }
+
+  .social {
+    @apply flex items-center justify-center hover:bg-secondary-200 border-1 border-secondary-200 hover:border-secondary-300 rounded-full transition duration-300
+  }
+
+  .footer-link {
+    @apply hover:text-primary-100 transition duration-300
   }
   
 }
