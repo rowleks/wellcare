@@ -8,7 +8,7 @@ export default function Footer() {
   const footerlinks1: LinkType[] = [
     {
       text: "about us",
-      link: "#",
+      link: "/about",
     },
     {
       text: "services",

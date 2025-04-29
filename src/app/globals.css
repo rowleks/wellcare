@@ -9,6 +9,7 @@
   --color-secondary-200: #edf7ff1a;
   --color-secondary-300: #edf7ff0d;
   --color-line-100: #0000001a;
+  --color-line-200: #0003;
 
   --font-inter: "Inter";
   --font-urbanist: "Urbanist";
@@ -63,6 +64,7 @@
     @apply hidden m-0;
     -webkit-appearance: none;
   }
+
 }
 
 @layer components {
@@ -93,5 +95,9 @@
   .footer-link {
     @apply hover:text-primary-100 transition duration-300
   }
-  
+
+  .list-img {
+    @apply relative pl-9 before:content-[''] before:absolute before:left-0 before:top-1/2 before:translate-y-[-50%] before:w-6 before:h-6 before:bg-[url('/blue-check.svg')] before:bg-contain before:bg-no-repeat
+  }
+
 }

@@ -15,7 +15,7 @@ export default function Hero() {
               journey to vibrant health and an inspired life with wellcare
               health.
             </p>
-            <ButtonPrimary content="learn more" />
+            <ButtonPrimary content="learn more" link="/about" />
           </div>
 
           <div className="flex items-center h-full">

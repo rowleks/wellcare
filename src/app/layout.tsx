@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.className} ${urbanist.className} antialiased`}
+      className={`${inter.className} ${urbanist.className} antialiased scroll-smooth`}
     >
       <body>
         <Navbar />

@@ -59,7 +59,7 @@ export default function About() {
               </div>
             </div>
 
-            <ButtonPrimary content="about us" />
+            <ButtonPrimary content="about us" link="/about" />
           </div>
         </div>
       </div>

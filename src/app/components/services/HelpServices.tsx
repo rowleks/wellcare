@@ -17,7 +17,7 @@ export default function HelpServices() {
   const contactInfoContents2: ContactInfoType = {
     label: "appointment",
     email: "momohrowland@gmail.com",
-    icon: "/ic-mail.svg",
+    icon: "/mail.svg",
   };
   return (
     <section>

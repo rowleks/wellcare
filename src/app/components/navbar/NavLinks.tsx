@@ -6,7 +6,7 @@ export default function NavLinks() {
       <ul className="flex flex-col lg:flex-row items-center gap-8 ">
         <li>
           <Link
-            href="#"
+            href="/about"
             className="hover:text-dark-200 transition duration-200"
           >
             About us

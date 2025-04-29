@@ -36,7 +36,10 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="bg-white py-4 text-sm relative z-50" ref={mobileMenuRef}>
+    <header
+      className="bg-white py-4 text-sm relative z-50 border-b-1 border-line-200"
+      ref={mobileMenuRef}
+    >
       <div className="flex items-center justify-between px-5 wrapper">
         <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
           <Image
