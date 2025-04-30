@@ -12,7 +12,7 @@ export default function Footer() {
     },
     {
       text: "services",
-      link: "#",
+      link: "/services",
     },
     {
       text: "doctors",

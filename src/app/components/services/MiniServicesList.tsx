@@ -1,41 +1,9 @@
 import Image from "next/image";
 import Heading, { HeadingType } from "../headings/Heading";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import { services } from "@/app/lib/data";
 
-interface ServiceType {
-  icon: string;
-  title: string;
-  description: string;
-}
-
-export default function MedServicesMini() {
-  const services: ServiceType[] = [
-    {
-      icon: "/bone.svg",
-      title: "Bone Marrow Transplant",
-      description:
-        "Discover renewed hope through our advanced bone marrow transplant procedures",
-    },
-    {
-      icon: "/van.svg",
-      title: "Emergency Care",
-      description:
-        "Rapid and reliable emergency care services to address your urgent health needs promptly and effectively.",
-    },
-    {
-      icon: "/heart-beat.svg",
-      title: "Operation Theater",
-      description:
-        "Equipped with advanced technology, ensuring a safe and efficient environment for surgical procedures.",
-    },
-    {
-      icon: "/pills.svg",
-      title: "Pharmacy",
-      description:
-        "Pharmacy services offering a wide range of medications to support your health and wellness needs.",
-    },
-  ];
-
+export default function MiniServicesList() {
   const headingContents: HeadingType = {
     title: "our medical services",
     subtitle: "what we do",
@@ -49,7 +17,7 @@ export default function MedServicesMini() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 gap-y-10 md:max-lg:gap-7 lg:gap-x-10">
-            {services.map((service, index) => (
+            {services.slice(0, 4).map((service, index) => (
               <div key={index} className="flex flex-col gap-5">
                 <Image
                   src={service.icon}
@@ -67,7 +35,7 @@ export default function MedServicesMini() {
           </div>
 
           <div className="ml-auto">
-            <ButtonPrimary content="view all" />
+            <ButtonPrimary content="view all" link="/services" />
           </div>
         </div>
       </div>

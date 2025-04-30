@@ -1,10 +1,10 @@
-import Aboutpage from "../(pages)/Aboutpage";
+import ServicesPage from "../(pages)/ServicesPage";
 
 export default function page() {
   return (
     <>
       <main>
-        <Aboutpage />
+        <ServicesPage />
       </main>
     </>
   );

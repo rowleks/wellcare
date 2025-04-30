@@ -14,7 +14,7 @@ export default function NavLinks() {
         </li>
         <li>
           <Link
-            href="#"
+            href="/services"
             className="hover:text-dark-200 transition duration-200"
           >
             Services

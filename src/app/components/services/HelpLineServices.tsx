@@ -2,7 +2,7 @@ import Image from "next/image";
 import ContactInfo, { ContactInfoType } from "../contact/ContactInfo";
 import Heading, { HeadingType } from "../headings/Heading";
 
-export default function HelpServices() {
+export default function HelpLineServices() {
   const headingContents: HeadingType = {
     title: "essential helpline services",
     subtitle: "emergency helpline",
