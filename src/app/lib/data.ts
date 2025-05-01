@@ -1,4 +1,4 @@
-import { ServiceType } from "../types/types";
+import { DocType, ServiceType } from "../types/types";
 
 export const services: ServiceType[] = [
   {
@@ -48,6 +48,51 @@ export const services: ServiceType[] = [
     title: "Rehabilitation Services",
     description:
       "Our dedicated team is committed to restoring your strenght and functionality after injuries or surgeries.",
+    link: "#",
+  },
+];
+
+export const doctors: DocType[] = [
+  {
+    image: "/guy.jpg",
+    name: "guy hawkins",
+    spec: "pediatrics",
+    link: "#",
+  },
+  {
+    image: "/jenny.jpg",
+    name: "jenny wilson",
+    spec: "psychiatry",
+    link: "#",
+  },
+  {
+    image: "/cooper.jpg",
+    name: "jane cooper",
+    spec: "cardiology",
+    link: "#",
+  },
+  {
+    image: "/courtney.jpg",
+    name: "courtney henry",
+    spec: "orthopedics",
+    link: "#",
+  },
+  {
+    image: "/kristin.jpg",
+    name: "kristin watson",
+    spec: "neurology",
+    link: "#",
+  },
+  {
+    image: "/leslie.jpg",
+    name: "leslie alexander",
+    spec: "surgeon",
+    link: "#",
+  },
+  {
+    image: "/darrell.jpg",
+    name: "darrel steward",
+    spec: "urology",
     link: "#",
   },
 ];

@@ -4,12 +4,12 @@ import Story from "../components/about/Story";
 import Mission from "../components/about/Mission";
 import Vision from "../components/about/Vision";
 import Cta from "../components/cta/Cta";
-import Docs from "../components/doctors/Docs";
+import Docs from "../components/doctors/MiniDocsList";
 import Insights from "../components/about/Insights";
 import Reviews from "../components/reviews/Reviews";
 import AboutCta from "../components/cta/AboutCta";
 
-export default function Aboutpage() {
+export default function AboutPage() {
   const header: TitleType = {
     title: "About WellCare",
     subtitle: "Over 15 Years of Experience",

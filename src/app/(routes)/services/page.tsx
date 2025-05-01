@@ -1,4 +1,4 @@
-import ServicesPage from "../(pages)/ServicesPage";
+import ServicesPage from "@/app/(pages)/ServicesPage";
 
 export default function page() {
   return (

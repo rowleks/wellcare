@@ -53,7 +53,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center ml-auto">
-          <NavLinks />
+          <NavLinks setIsMobileMenuOpen={setIsMobileMenuOpen} />
         </nav>
 
         {/* Desktop Buttons */}
@@ -78,7 +78,7 @@ export default function Navbar() {
               : "pointer-events-none translate-y-[-10%] opacity-0"
           }`}
         >
-          <NavLinks />
+          <NavLinks setIsMobileMenuOpen={setIsMobileMenuOpen} />
           <Link href="#" className="btn-primary w-full mb-6">
             Book Appointment
           </Link>

@@ -1,12 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-export interface DocType {
-  image: string;
-  name: string;
-  spec: string;
-  link: string;
-}
+import { DocType } from "@/app/types/types";
 
 type DoctorProp = {
   doctor: DocType;

@@ -16,7 +16,7 @@ export default function Footer() {
     },
     {
       text: "doctors",
-      link: "#",
+      link: "/doctors",
     },
     {
       text: "blogs",

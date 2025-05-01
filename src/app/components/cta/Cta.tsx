@@ -17,7 +17,7 @@ export default function Cta() {
                 Every step you take today shapes your healthier tomorrow.
               </p>
               <div className="flex items-center gap-5">
-                <ButtonPrimary content="meet our doctors" />
+                <ButtonPrimary content="meet our doctors" link="/doctors" />
                 <BtnSecondary content="Contact Us" />
               </div>
             </div>
