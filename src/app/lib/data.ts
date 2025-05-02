@@ -1,4 +1,4 @@
-import { DocType, ServiceType } from "../types/types";
+import { ArticleType, DocType, ServiceType } from "../types/types";
 
 export const services: ServiceType[] = [
   {
@@ -93,6 +93,58 @@ export const doctors: DocType[] = [
     image: "/darrell.jpg",
     name: "darrel steward",
     spec: "urology",
+    link: "#",
+  },
+];
+
+export const articles: ArticleType[] = [
+  {
+    image: "/article-1.jpg",
+    heroImg: "/doctors-hero.jpg",
+    title: "Integrating Mind, Body, and Soul for Optimal Health",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-2.jpg",
+    title: "Pediatric Surgery Navigating Surgical Care for Children",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-3.jpg",
+    title: "Innovations in Surgical Recovery Advances for Quicker Healing",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-4.jpg",
+    title: "Preventing Surgical Complications Steps for Reducing Risks",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-5.jpg",
+    title: "Advances in Imaging Technologies From MRI to 3D Imaging",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-6.jpg",
+    title: "Handling Pediatric Emergencies What Every Parent Should Know",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-7.jpg",
+    title: "Post-Operative Care Guidelines for a Successful Recovery",
+    date: "Aug 18, 2024",
+    link: "#",
+  },
+  {
+    image: "/article-8.jpg",
+    title: "Enhancing Patient Engagement with Mobile Health Apps",
+    date: "Aug 18, 2024",
     link: "#",
   },
 ];

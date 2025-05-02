@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Heading, { HeadingType } from "../headings/Heading";
 import ButtonPrimary from "../buttons/ButtonPrimary";
 import { services } from "@/app/lib/data";
+import { HeadingType } from "@/app/types/types";
+import Heading from "../headings/Heading";
 
 export default function MiniServicesList() {
   const headingContents: HeadingType = {

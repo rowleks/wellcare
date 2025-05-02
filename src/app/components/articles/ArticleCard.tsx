@@ -1,13 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ArrowBig from "../buttons/ArrowBig";
-
-export interface ArticleType {
-  image: string;
-  date: string;
-  title: string;
-  link?: string;
-}
+import { ArticleType } from "@/app/types/types";
 
 type ArticleProp = {
   article: ArticleType;

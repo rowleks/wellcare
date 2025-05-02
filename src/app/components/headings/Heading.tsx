@@ -1,9 +1,5 @@
+import { HeadingType } from "@/app/types/types";
 import Image from "next/image";
-
-export interface HeadingType {
-  title: string;
-  subtitle: string;
-}
 
 type HeadingProps = {
   contents: HeadingType;

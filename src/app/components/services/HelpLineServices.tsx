@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ContactInfo, { ContactInfoType } from "../contact/ContactInfo";
-import Heading, { HeadingType } from "../headings/Heading";
+import { HeadingType } from "@/app/types/types";
+import Heading from "../headings/Heading";
 
 export default function HelpLineServices() {
   const headingContents: HeadingType = {

@@ -20,7 +20,7 @@ export default function ServicesCta() {
               <div className="flex flex-col gap-6 lg:gap-10 md:max-w-[35%] lg:max-w-[2/5]">
                 <h3>Consult with Our Skilled Doctors</h3>
                 <div>
-                  <ButtonPrimary2 content="Our Doctors" />
+                  <ButtonPrimary2 content="Our Doctors" link="/doctors" />
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function ServicesCta() {
               <div className="flex flex-col gap-6 lg:gap-10 md:max-w-[35%] lg:max-w-[3/5] lg:max-xl:mr-6">
                 <h3>Experience Health Transformation</h3>
                 <div>
-                  <ButtonPrimary2 content="Learn More" />
+                  <ButtonPrimary2 content="Learn More" link="/about" />
                 </div>
               </div>
             </div>

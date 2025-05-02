@@ -1,8 +1,9 @@
 import ServicesCta from "../components/cta/ServicesCta";
-import PageHero, { HeroType } from "../components/hero/PageHero";
-import PageTitle, { TitleType } from "../components/page-titles/PageTitle";
+import PageHero from "../components/hero/PageHero";
+import PageTitle from "../components/page-titles/PageTitle";
 import Reviews from "../components/reviews/Reviews";
 import ServicesList from "../components/services/ServicesList";
+import { HeroType, TitleType } from "../types/types";
 
 export default function ServicesPage() {
   const header: TitleType = {

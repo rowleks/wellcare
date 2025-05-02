@@ -1,5 +1,3 @@
-import PageHero, { HeroType } from "../components/hero/PageHero";
-import PageTitle, { TitleType } from "../components/page-titles/PageTitle";
 import Story from "../components/about/Story";
 import Mission from "../components/about/Mission";
 import Vision from "../components/about/Vision";
@@ -8,6 +6,9 @@ import Docs from "../components/doctors/MiniDocsList";
 import Insights from "../components/about/Insights";
 import Reviews from "../components/reviews/Reviews";
 import AboutCta from "../components/cta/AboutCta";
+import { HeroType, TitleType } from "../types/types";
+import PageHero from "../components/hero/PageHero";
+import PageTitle from "../components/page-titles/PageTitle";
 
 export default function AboutPage() {
   const header: TitleType = {

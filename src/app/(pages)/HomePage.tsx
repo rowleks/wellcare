@@ -1,6 +1,6 @@
 import About from "../components/about/About";
 import Appointment from "../components/appointment/Appointment";
-import ArticlesMini from "../components/articles/ArticlesMini";
+import MiniArticlesList from "../components/articles/MiniArticlesList";
 import Cta from "../components/cta/Cta";
 import MiniDocsList from "../components/doctors/MiniDocsList";
 import Features from "../components/features/Features";
@@ -21,7 +21,7 @@ export default function Homepage() {
       <Cta />
       <Reviews />
       <Features />
-      <ArticlesMini />
+      <MiniArticlesList />
     </>
   );
 }

@@ -20,7 +20,7 @@ export default function Footer() {
     },
     {
       text: "blogs",
-      link: "#",
+      link: "/blogs",
     },
     {
       text: "health plans",
@@ -155,13 +155,18 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-2 items-center justify-between text-sm wrapper">
           <p>
             Design by{" "}
-            <Link href="https://www.nixar.io" className="footer-link">
+            <Link
+              href="https://www.nixar.io"
+              target="_blank"
+              className="text-primary-100 font-medium"
+            >
               Nixar.
             </Link>{" "}
             Developed by{" "}
             <Link
               href="https://rowland-momoh.netlify.app/"
-              className="footer-link"
+              target="_blank"
+              className="text-primary-100 font-medium"
             >
               Rolex.
             </Link>

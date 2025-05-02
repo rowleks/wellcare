@@ -36,7 +36,7 @@
     @apply text-[1.625rem] lg:text-[2rem] font-light;
   }
   h4 {
-    @apply text-2xl;
+    @apply text-xl md:text-2xl lg:text-3xl;
   }
   h5 {
     @apply text-lg font-medium;
@@ -50,7 +50,7 @@
   }
 
   section {
-    @apply mb-15 md:mb-20 lg:mb-25 xl:mb-30 relative
+    @apply mb-15 md:mb-20 lg:mb-25 xl:mb-30 relative h-fit
   }
 
   

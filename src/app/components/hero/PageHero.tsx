@@ -1,9 +1,5 @@
+import { HeroType } from "@/app/types/types";
 import Image from "next/image";
-
-export interface HeroType {
-  imgUrl: string;
-  alt: string;
-}
 
 export default function PageHero({ imgUrl, alt }: HeroType) {
   return (

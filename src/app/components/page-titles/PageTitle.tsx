@@ -1,10 +1,6 @@
+import { TitleType } from "@/app/types/types";
 import Image from "next/image";
 import Link from "next/link";
-
-export interface TitleType {
-  title: string;
-  subtitle: string;
-}
 
 export default function PageTitle({ title, subtitle }: TitleType) {
   return (

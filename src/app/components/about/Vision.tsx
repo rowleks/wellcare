@@ -23,7 +23,7 @@ export default function Vision() {
               </li>
             </ul>
             <div className="font-bold">
-              <BtnSecondary content="Our Services" />
+              <BtnSecondary content="Our Services" link="/services" />
             </div>
           </div>
 

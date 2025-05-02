@@ -36,11 +36,11 @@ export default function NavLinks({ setIsMobileMenuOpen }: NavLinksProps) {
       </li>
       <li>
         <Link
-          href="#"
+          href="/blogs"
           className="hover:text-dark-200 transition duration-200"
           onClick={() => setIsMobileMenuOpen(false)}
         >
-          Blog
+          Blogs
         </Link>
       </li>
       <li>
