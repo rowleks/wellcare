@@ -34,3 +34,8 @@ export interface HeadingType {
   title: string;
   subtitle: string;
 }
+
+export interface FaqType {
+  question: string;
+  answer: string;
+}

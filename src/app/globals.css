@@ -42,7 +42,7 @@
     @apply text-lg font-medium;
   }
   h6 {
-    @apply text-base/relaxed;
+    @apply text-base/relaxed md:text-lg;
   }
 
   small {

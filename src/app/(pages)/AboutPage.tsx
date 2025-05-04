@@ -9,6 +9,7 @@ import AboutCta from "../components/cta/AboutCta";
 import { HeroType, TitleType } from "../types/types";
 import PageHero from "../components/hero/PageHero";
 import PageTitle from "../components/page-titles/PageTitle";
+import FaqSection from "../components/faq/FaqSection";
 
 export default function AboutPage() {
   const header: TitleType = {
@@ -33,6 +34,7 @@ export default function AboutPage() {
       <Docs />
       <Insights />
       <Reviews />
+      <FaqSection />
       <AboutCta />
     </>
   );
