@@ -34,7 +34,7 @@ export default function Footer() {
     },
     {
       text: "appointment",
-      link: "#",
+      link: "/appointment",
     },
     {
       text: "privacy policy",

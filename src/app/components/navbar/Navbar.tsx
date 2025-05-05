@@ -59,7 +59,7 @@ export default function Navbar() {
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center gap-8 ml-auto">
           <ContactInfo contactsInfo={contactInfoContents} />
-          <ButtonPri content="book appointment" />
+          <ButtonPri content="book appointment" link="/appointment" />
         </div>
 
         {/* Mobile Hamburger Menu */}
@@ -79,7 +79,7 @@ export default function Navbar() {
           }`}
         >
           <NavLinks setIsMobileMenuOpen={setIsMobileMenuOpen} />
-          <Link href="#" className="btn-primary w-full mb-6">
+          <Link href="/appointment" className="btn-primary w-full mb-6">
             Book Appointment
           </Link>
         </div>

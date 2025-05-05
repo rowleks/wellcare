@@ -50,7 +50,7 @@ export default function Faq() {
             onClick={() => toggleFaq(index)}
           >
             <div className="flex justify-between items-center">
-              <h6 className="max-w-4/5">{faq.question}</h6>
+              <h6 className="max-w-4/5 font-medium">{faq.question}</h6>
               <span className="text-3xl font-extralight">
                 {openIndexes.includes(index) ? "-" : "+"}
               </span>
